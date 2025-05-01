@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicine Reminder</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Medicine Reminder</h1>
+
+    <div class="form-container">
+      <label for="medicineName">Medicine Name:</label>
+      <input type="text" id="medicineName">
+
+      <label for="quantity">Quantity of Medicine:</label>
+      <input type="number" id="quantity">
+
+      <label for="time">Time for Medicine:</label>
+      <input type="time" id="time">
+
+      <button id="addButton">Add</button>
+    </div>
+
+    <table id="medicineTable">
+      <thead>
+        <tr>
+          <th>Medicine Name</th>
+          <th>Quantity</th>
+          <th>Time</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Medicine rows will be dynamically added here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
