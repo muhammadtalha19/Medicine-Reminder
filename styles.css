@@ -89,3 +89,52 @@ th, td {
   padding: 10px;
   text-align: center;
 }
+/* Navigation Bar */
+nav {
+  background-color: #007bff; /* Adjust this to match your existing color scheme */
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white; /* Ensure links are visible */
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Add hover effect for better UX */
+}
+
+/* History Table (if applicable) */
+#historyTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#historyTable th, #historyTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#historyTable th {
+  background-color: #007bff; /* Match your existing header color */
+  color: white;
+}
+
+#historyTable tr:nth-child(even) {
+  background-color: #f2f2f2; /* Add alternating row colors */
+}
+
+#historyTable tr:hover {
+  background-color: #ddd; /* Highlight row on hover */
+}
+
+/* Fade-out effect for rows when medicine is taken */
+.fade-out {
+  opacity: 0;
+  transition: opacity 2s ease-out;
+}
